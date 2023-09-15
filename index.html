@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+
+    <title>pokedex</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Flavors&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Flavors&family=Lumanosimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        </style>
+
+    <header>
+
+    </header>
+
+    <section class="container">
+    
+    </section>
+
+
+    <script>
+
+        async function populate() {
+
+            const requestURL = 'superheroes.json';
+            const request = new Request(requestURL);
+
+            const response = await fetch(request);
+            const superHeroesText = await response.text();
+
+            const superHeroes = JSON.parse(superHeroesText);
+            populateHeader(superHeroes);
+            populateHeroes(superHeroes);
+            funcionpaula(superHeroes);
+        }
+
+        function populateHeader(obj) {
+            const header = document.querySelector('header');
+
+
+            const myH1 = document.createElement('h1');
+            myH1.textContent = obj.homeTown;
+            header.appendChild(myH1);
+
+            const myPara = document.createElement('h4');
+            myPara.textContent = `PAULA ANDREA BOTíA BLANDON: ${obj.homeTown} // : ${obj.formed}`;
+            header.appendChild(myPara);
+        }
+
+        function populateHeroes(obj) {
+            const section = document.querySelector('section');
+            const heroes = obj.members;
+            
+
+            for (const hero of heroes) {
+                const myArticle = document.createElement('article');
+                const myH2 = document.createElement('h2');
+                const myPara1 = document.createElement('h5');
+                const myPara2 = document.createElement('h5');
+                const myPara3 = document.createElement('h5');
+                const myList = document.createElement('h5');
+                const myImage = document.createElement('img');
+                
+
+                myH2.textContent = hero.name;
+                myPara1.textContent = `Especie: ${hero.secretIdentity}`;
+                myPara2.textContent = `Figura: ${hero.age}`;
+                myPara3.textContent = 'poderes:';
+                myImage.src = hero.image; 
+
+                const superPowers = hero.powers;
+                for (const power of superPowers) {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = power;
+                    myList.appendChild(listItem);
+                }
+
+                myArticle.appendChild(myH2);
+                myArticle.appendChild(myPara1);
+                myArticle.appendChild(myPara2);
+                myArticle.appendChild(myPara3);
+                myArticle.appendChild(myList);
+                myArticle.appendChild(myImage);
+
+                section.appendChild(myArticle);
+            }
+            
+        }
+        function funcionpaula(obj) {
+                const footer = document.querySelector('footer');
+
+            const texto = document.createElement('h3');
+            texto.textContent = obj.texto;
+            footer.appendChild(texto);
+        }
+        populate();
+
+    </script>
+        <footer>
+
+        </footer>
+</body>
+</html>

@@ -1,0 +1,188 @@
+/* || general styles */
+
+html {
+    font-family: 'Titan One', cursive;
+}
+
+body {
+    width: auto;
+    margin: 0 auto;
+    background-color: rgba(202, 51, 21, 0.942);
+
+}
+
+h1, h2 {
+    font-family: 'Press Start 2P';
+}
+h2{
+    -webkit-text-stroke: 1px rgba(240, 195, 16, 0.64);
+}
+/* header styles */
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    
+    
+    -webkit-text-stroke: 2px rgb(240, 195, 16);
+}
+h3{
+    font-family: 'Press Start 2P', cursive;
+    
+}
+h4{
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    -webkit-text-stroke: 1px rgb(239, 239, 239);
+
+}
+h5{
+    font-size: 1rem;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+header p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* section styles */
+
+section article {
+    width: 30%;
+    float: left;
+    margin: 10px;
+    background-color: #CC9C83;
+    text-align: center;
+    border:  4px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgb(240, 195, 16);
+    transition: 0.3s;
+}
+section article:hover{
+    
+       transform: scale3d(1.1, 1.1, 1);
+      
+}
+img{
+    position: relative;
+}
+section p {
+    margin: 5px 0;
+}
+
+section ul {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    letter-spacing: -5px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+footer{
+    width: 90%;   
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #ca9e0bb6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    
+
+}
+@media screen and (max-width:default){
+    body{
+        width: 100%;
+        margin: 60px;
+    }
+    h1{
+        font-size: xx-large;
+
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    section article {
+        width: 40%;
+        float: left;
+    }
+    footer{
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+      
+    }
+    footer h3{
+        font-size: 20px;
+        width: 80%
+        
+    
+    }
+  
+}
+
+
+@media screen and (max-width:740px){
+    body{
+        width: 100%;
+        margin: none;
+    }
+    h1{
+        font-size: x-large;
+
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    section article {
+        width: 60%;
+    }
+    img{
+       
+        width: 80%;
+    }
+    footer{
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+      
+    }
+    footer h3{
+        font-size: 20px;
+        width: 80%
+        
+    
+    }
+ 
+}

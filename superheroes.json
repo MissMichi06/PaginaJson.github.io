@@ -1,0 +1,162 @@
+{
+    "squadName": "Super Hero Squad",
+    "homeTown": "POKEDEX",
+    "formed": 2023,
+    "secretBase": "Super tower",
+    "active": true,
+    "members": [
+        {
+            "name": "Charmander",
+            "age": 6,
+            "secretIdentity": "Pokémon Lagartija",
+            "powers": [
+                "Poder solar",
+                "Mar llamas",
+                "Monstruo Dragón"
+            ],
+            "image": "https://i.postimg.cc/Jn1GmCCB/53187426587-3c6bcbe1bf-o-removebg-preview.png"
+            
+        },
+        {
+            "name": "Eevee",
+            "age": 8,
+            "secretIdentity": "Pokémon Evolución",
+            "powers": [
+                "Anticipación",
+                "Fuga",
+                "Adaptable"
+            ],
+            "image":"https://i.postimg.cc/QM32nXc1/53188341455-d7620f1af9-o-removebg-preview.png" 
+            
+        },
+        {
+            "name": "Vaporeon",
+            "age": 8,
+            "secretIdentity": "Pokémon Burbuja",
+            "powers": [
+                "Hidratación",
+                "Absorbe agua",
+                "Agua"
+                
+            ],
+            "image":"https://i.postimg.cc/ZRBKJbDn/53188214734-00fd259bb4-o-removebg-preview.png" 
+        }
+        ,
+        {
+            "name": "Bulbasaur",
+            "age": 8,
+            "secretIdentity": "Pokémon Semilla",
+            "powers": [
+                "Clorofila",
+                "Espesura",
+                "Verde"
+            ],
+            "image":"https://i.postimg.cc/vBfTW87j/Bulbasaur-1-removebg-preview.png" 
+        }
+        ,
+        {
+            "name": "Gardevoir",
+            "age": 12,
+            "secretIdentity": "Celebridad",
+            "powers": [
+                "Telepatía",
+                "Calco",
+                "Sincronía"
+            ],
+            "image":"https://i.postimg.cc/L4QByNjV/53187437137-b9d4da340b-o-removebg-preview.png" 
+        }
+        ,
+        {
+            "name": "Gengar",
+            "age": 6,
+            "secretIdentity": "Pokémon Sombra",
+            "powers": [
+                "Cuerpo maldito",
+                "Veneno ",
+                "Fantasma"
+               
+            ],
+            "image":"https://i.postimg.cc/QNBgBcWY/Gengar-1-removebg-preview.png" 
+        }
+        ,
+        {
+            "name": "Machoke",
+            "age": 12,
+            "secretIdentity": "Pokémon Superpoder",
+            "powers": [
+                "Impasible",
+                "Agallas",
+                "Indefenso"
+                
+            ],
+            "image":"https://i.postimg.cc/yYxFqc7y/Machoke-1-removebg-preview.png" 
+        }
+        ,
+        {
+            "name": "Ditto",
+            "age": 1,
+            "secretIdentity": "Pokémon Transformación",
+            "powers": [
+                "Impostor",
+                "Flexibilidad"
+               
+            ],
+            "image":"https://i.postimg.cc/N0sX4HCX/Ditto-1-removebg-preview.png" 
+        }
+        ,
+        {
+            "name": "Mew",
+            "age": 6,
+            "secretIdentity": "Pokémon Nueva especie",
+            "powers": [
+                "Sincronía",
+                "Rosa",
+                "Raro"
+                
+            ]
+            ,
+            "image":"https://i.postimg.cc/cHsS9fVQ/Mew-1-removebg-preview.png" 
+        }
+        ,
+        {
+            "name": "Pikachu",
+            "age": 8,
+            "secretIdentity": "Pokémon Ratón",
+            "powers": [
+                "Pararrayos",
+                "Electricidad estática",
+                "Amarillo"
+        
+            ],
+            "image":"https://i.postimg.cc/PrHRmtnw/Pikachu-M-Home-1-removebg-preview.png" 
+        }
+        ,
+        {
+            "name": "Blaziken",
+            "age": 6,
+            "secretIdentity": "Pokémon Llameante",
+            "powers": [
+                "Impulso",
+                "Mar llamas",
+                "Rojo"
+            
+            ],
+            "image":"https://i.postimg.cc/65m2RpDW/257-Blaziken-AG-anime-removebg-preview.png" 
+        }
+        ,
+        {
+            "name": "Porygon",
+            "age": 7,
+            "secretIdentity": "Pokémon Virtual",
+            "powers": [
+                "Cálculo final",
+                "Calco",
+                "Descarga"
+              
+            ]
+            ,
+            "image":"https://i.postimg.cc/hvcJcCfh/Porygon-1-removebg-preview.png" 
+        }
+    ],
+    "texto" : "Pokémon es una franquicia de medios que originalmente comenzó como un videojuego RPG, pero debido a su popularidad ha logrado expandirse a otros medios de entretenimiento como series de televisión, películas, juegos de cartas, ropa, entre otros, convirtiéndose en una marca que es reconocida en el mercado mundial"
+}
